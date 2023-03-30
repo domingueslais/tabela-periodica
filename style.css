@@ -1,0 +1,70 @@
+@charset "UTF-8";
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body, html {
+    height: 100vh;
+    width: 100vw;
+    margin-bottom: 20px;
+    overflow-x:hidden;
+}
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 3em;
+    text-align: center;
+    margin-bottom: 20px;
+}
+table {
+    width: 90vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    margin: auto;
+    border-collapse: collapse;
+}
+td {
+    height: 80px;
+    width: 80px;
+    border: 1px solid black;
+    text-align: center;
+    
+}
+#ibranco {
+    border: none;
+    background-color: white;
+}
+.roxo {
+    background-color: rgb(161, 99, 219);
+}
+.laranja {
+    background-color: rgba(255, 68, 0, 0.644);
+}
+.laranja-claro {
+    background-color: rgba(255, 166, 0, 0.603);
+}
+.amarelo-claro {
+    background-color: rgb(241, 241, 136);
+}
+.amarelo {
+    background-color: yellow;
+}
+.verde {
+    background-color: rgb(75, 199, 75);
+}
+.ciano {
+    background-color: aqua;
+}
+.rosa {
+    background-color: magenta;
+}
+.cinza {
+    background-color: gray;
+}
+.azul {
+    background-color: rgb(79, 82, 255);
+}
+.azul-claro {
+    background-color: #2ccaff;
+}
